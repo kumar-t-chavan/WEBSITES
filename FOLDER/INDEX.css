@@ -1,0 +1,45 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+
+html,body {
+    height: 100%;
+    width: 100%;
+
+}
+
+#main {
+  
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rect {
+    margin: 5px;
+    display: flex;
+}
+.shape {
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#cursor {
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;border-radius: 50px;
+    position: absolute;
+
+}
